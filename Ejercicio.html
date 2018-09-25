@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV - Kevin Cabrera</title>
+</head>
+<body>
+    <h1>
+        Login: 
+    </h1>
+    <form name="formulario" method ="post">
+        Usuario: <br>
+        <input type ="text" name="nombre" value="" required>
+        <br>
+        Email: <br>
+        <input type ="email" name="email" required>
+        <br>
+        Contraseña: <br>
+        <input type ="password" name="passwd" required pattern="([0-9!@#\$%\^\&*_=+-])[a-z]|[A-Z]" >
+        <br>
+        Nombre: <br>
+        <input type ="text" name="nombre" placeholder="Paco" required pattern="[A-Za-z]+" value="">
+        <br>
+        Apellidos: <br>
+        <input type ="text" name="apellido" placeholder="Batista" required pattern="[A-Za-z]+" value="">
+        <br>
+        Estudios: <br>
+        <input type ="radio" name = "estudios_1" value = "Primarios"> Estudios Primarios <br>
+        <input type ="radio" name = "estudios_2" value = "Secundarios"> Estudios Secundarios <br>
+        <input type ="radio" name = "estudios_3" value = "FP Medios"> FP Medios <br>
+        <input type ="radio" name = "estudios_4" value = "FP Superiores"> FP Superiores <br>
+        <input type ="radio" name = "estudios_5" value = " Diplomatura"> Diplomatura <br>
+        <input type ="radio" name = "estudios_6" value = " Licenciatura"> Licenciatura <br>
+        Indique si está inscrito en Garantia juvenil:
+        <input type = "checkbox" name="checkbox">
+        <br>
+        <input type="submit" value="Login">
+
+    </form>
+
+</body>
+</html>
